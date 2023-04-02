@@ -43,7 +43,7 @@ function Sidebar() {
                         aria-expanded="true" aria-controls="collapseTwo" onClick={()=>{setShowComponent(!showComponent)}}>
                         
                         <div className="d-flex justify-content-between align-items-baseline">
-                            <span><i class="fas fa-fw fa-cog"></i>Components</span><p className="fw-bold text-secondary">{">"}</p>
+                            <span><i class="fas fa-fw fa-cog"></i>Components</span><p className="fw-bold opacity-80">{">"}</p>
                         </div>
                          
                     </a>
@@ -63,7 +63,7 @@ function Sidebar() {
                         aria-expanded="true" aria-controls="collapseUtilities" onClick={()=>{setUtilities(!showUtilities)}}>
                         
                         <div className="d-flex justify-content-between align-items-baseline">
-                            <span><i class="fas fa-fw fa-wrench"></i>Utilities</span><p className="fw-bold text-secondary">{">"}</p>
+                            <span><i class="fas fa-fw fa-wrench"></i>Utilities</span><p className="fw-bold opacity-80">{">"}</p>
                         </div>
                         
                     </a>
@@ -93,7 +93,7 @@ function Sidebar() {
                     aria-expanded="true" aria-controls="collapsePages" onClick={() => {setShowpages(!setShowpages)}}>
                         
                         <div className="d-flex justify-content-between align-items-baseline">
-                            <span><i className="fas fa-fw fa-folder"></i>Pages</span><p className="fw-bold text-secondary">{">"}</p>
+                            <span><i className="fas fa-fw fa-folder"></i>Pages</span><p className="fw-bold opacity-80">{">"}</p>
                         </div>
                         
                     </a>
